@@ -13,6 +13,21 @@ public class Question19 {
         System.out.println("Enter third side of the triangle: ");
         c = input.nextInt();
 
+        if ( a==b && b==c)
+        {
+            System.out.println("Equilateral traingle");
+
+        }
+        else if ( a==b || b ==c || a == c)
+        {
+            System.out.println("Isosceles triangle");
+
+        }
+        else
+        {
+            System.out.println("Scalene triangle");
+        }
+
 
 
     }
